@@ -51,696 +51,699 @@
 </head>
 <body class="bg-slate-50 text-slate-800">
 
-    <!-- Artifact Modal -->
-    <div id="artifactModal" class="fixed inset-0 z-50 overflow-auto bg-black bg-opacity-60 flex items-center justify-center">
-        <div class="bg-white rounded-lg shadow-2xl m-4 md:m-8 max-w-lg w-full transform transition-all scale-95 opacity-0" id="modalContent">
-            <div class="flex justify-between items-center p-4 border-b">
-                <h3 class="text-xl font-bold text-blue-700" id="modalTitle">Project Artifacts</h3>
-                <button id="closeModal" class="text-slate-400 hover:text-slate-800 text-2xl">&times;</button>
-            </div>
-            <div class="p-6">
-                <p class="text-sm text-slate-600 mb-4">This project is in the landing process. The following artifacts are being/have been produced:</p>
-                <ul class="list-disc ml-5 space-y-2 text-slate-700" id="modalArtifacts">
-                    <!-- Artifacts will be dynamically injected here -->
-                </ul>
-            </div>
+<!-- Artifact Modal -->
+<div id="artifactModal" class="fixed inset-0 z-50 overflow-auto bg-black bg-opacity-60 flex items-center justify-center">
+    <div class="bg-white rounded-lg shadow-2xl m-4 md:m-8 max-w-lg w-full transform transition-all scale-95 opacity-0" id="modalContent">
+        <div class="flex justify-between items-center p-4 border-b">
+            <h3 class="text-xl font-bold text-blue-700" id="modalTitle">Project Artifacts</h3>
+            <button id="closeModal" class="text-slate-400 hover:text-slate-800 text-2xl">&times;</button>
+        </div>
+        <div class="p-6">
+            <p class="text-sm text-slate-600 mb-4">This project is in the landing process. The following artifacts are being/have been produced:</p>
+            <ul class="list-disc ml-5 space-y-2 text-slate-700" id="modalArtifacts">
+                <!-- Artifacts will be dynamically injected here -->
+            </ul>
         </div>
     </div>
+</div>
 
 
-    <div class="container mx-auto p-4 py-8 md:p-12">
+<div class="container mx-auto p-4 py-8 md:p-12">
 
-        <header class="text-center mb-12">
-            <h1 class="text-4xl md:text-5xl font-bold text-blue-700 mb-2">INCUBATION & EMERGING SOLUTIONS</h1>
-            <p class="text-xl md:text-2xl text-slate-600 font-semibold">Leadership Strategy: From Vision to Value Orchestration</p>
-        </header>
+    <header class="text-center mb-12">
+        <h1 class="text-4xl md:text-5xl font-bold text-blue-700 mb-2">INCUBATION & EMERGING SOLUTIONS</h1>
+        <p class="text-xl md:text-2xl text-slate-600 font-semibold">Leadership Strategy: From Vision to Value Orchestration</p>
+    </header>
 
-        <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <main class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-            <section class="md:col-span-2 lg:col-span-3 bg-white rounded-xl shadow-xl p-6 md:p-8 border-t-4 border-pink-600">
-                <h2 class="text-3xl font-extrabold text-pink-600 mb-4">WHY INCUBATION? The Market Imperative</h2>
-                <p class="text-slate-700 mb-6 text-lg">The market is outpacing our static offerings. With the rapid acceleration of AI and Cloud ecosystems, customers demand **proactive, validated guidance** before patterns even exist. Incubation is the structured **innovation engine** required to capture next-generation revenue and maintain a competitive edge through speed and agility.</p>
+        <section class="md:col-span-2 lg:col-span-3 bg-white rounded-xl shadow-xl p-6 md:p-8 border-t-4 border-pink-600">
+            <h2 class="text-3xl font-extrabold text-pink-600 mb-4">WHY INCUBATION? The Market Imperative</h2>
+            <p class="text-slate-700 mb-6 text-lg">The market is outpacing our static offerings. With the rapid acceleration of AI and Cloud ecosystems, customers demand "proactive, validated guidance" before patterns even exist. Incubation is the structured "innovation engine" required to capture next-generation revenue and maintain a competitive edge through speed and agility.</p>
 
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-                    <div class="p-4 bg-blue-50 rounded-lg">
-                        <p class="text-4xl font-bold text-blue-700">5X</p>
-                        <p class="text-sm text-slate-600 font-medium mt-1">Pace of AI/DQ Innovation</p>
-                    </div>
-                    <div class="p-4 bg-blue-50 rounded-lg">
-                        <p class="text-4xl font-bold text-pink-600">Proactive</p>
-                        <p class="text-sm text-slate-600 font-medium mt-1">Guidance Expected by Customers</p>
-                    </div>
-                    <div class="p-4 bg-blue-50 rounded-lg">
-                        <p class="text-4xl font-bold text-emerald-600">Structured</p>
-                        <p class="text-sm text-slate-600 font-medium mt-1">Engine for Scaling New Offerings</p>
-                    </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                <div class="p-4 bg-blue-50 rounded-lg">
+                    <p class="text-4xl font-bold text-blue-700">5X</p>
+                    <p class="text-sm text-slate-600 font-medium mt-1">Pace of Innovation</p>
                 </div>
-            </section>
-
-            <section class="md:col-span-1 bg-white rounded-xl shadow-xl p-6">
-                <h2 class="text-2xl font-bold text-blue-700 mb-4">Mission & Charter: Our Mandate</h2>
-                <p class="text-slate-600 mb-6 text-sm">Our purpose is to stay ahead of the product curve and serve as the internal growth engine by turning emerging ideas into scalable PS offerings.</p>
-                <div class="flex flex-col space-y-4">
-                    <div class="p-3 bg-pink-100 rounded-lg border-l-4 border-pink-600 flex items-center">
-                        <span class="text-2xl mr-3 text-pink-600">💡</span>
-                        <p class="font-semibold text-sm">**EXPLORE:** Stay ahead of emerging customer needs and acquisitions.</p>
-                    </div>
-                    <div class="p-3 bg-amber-100 rounded-lg border-l-4 border-amber-600 flex items-center">
-                        <span class="text-2xl mr-3 text-amber-600">✅</span>
-                        <p class="font-semibold text-sm">**VALIDATE:** Rapidly test and prove high-value solutions (MVPs).</p>
-                    </div>
-                     <div class="p-3 bg-blue-100 rounded-lg border-l-4 border-blue-600 flex items-center">
-                        <span class="text-2xl mr-3 text-blue-600">🤝</span>
-                        <p class="font-semibold text-sm">**COLLABORATE:** Work with Product/Engg on new releases, then enable the PS Delivery team.</p>
-                    </div>
-                    <div class="p-3 bg-emerald-100 rounded-lg border-l-4 border-emerald-600 flex items-center">
-                        <span class="text-2xl mr-3 text-emerald-600">🚀</span>
-                        <p class="font-semibold text-sm">**SCALE:** Enable PS/Field teams with repeatable frameworks & revenue paths.</p>
-                    </div>
+                <div class="p-4 bg-blue-50 rounded-lg">
+                    <p class="text-4xl font-bold text-pink-600">Proactive</p>
+                    <p class="text-sm text-slate-600 font-medium mt-1">Guidance Expected by Customers</p>
                 </div>
-            </section>
-
-            <section class="md:col-span-2 bg-white rounded-xl shadow-xl p-6">
-                <h2 class="text-2xl font-bold text-blue-700 mb-4">Strategic Themes & Product Focus (8 Workstreams)</h2>
-                <p class="text-slate-600 mb-6 text-sm">Execution requires **8 dedicated Incubator Leads** across 4 Pillars. This model ensures focused technical depth for every major product theme:</p>
-                <div class="grid grid-cols-2 gap-4 text-xs">
-                    <div class="p-3 bg-pink-50 rounded-lg border-l-2 border-pink-600">
-                        <h3 class="font-bold text-pink-600 text-base">Pillar 1: AI, Automation & Intelligence (2 Leads)</h3>
-                        <p class="mt-1">1. **AI Governance** & Responsible Intelligence</p>
-                        <p class="mt-1">2. **Unstructured Data Intelligence**, AI Agents, MCP Server & Command Center</p>
-                    </div>
-                    <div class="p-3 bg-blue-50 rounded-lg border-l-2 border-blue-700">
-                        <h3 class="font-bold text-blue-700 text-base">Pillar 2: Data Quality, Observability & Trust (2 Leads)</h3>
-                        <p class="mt-1">3. **Data Quality & Observability** (Unified DQ, CDQ, pushdown, rules automation)</p>
-                        <p class="mt-1">4. **Lineage & Integration Engineering** (ETL lineage, event-based ingestion)</p>
-                    </div>
-                    <div class="p-3 bg-amber-50 rounded-lg border-l-2 border-amber-600">
-                        <h3 class="font-bold text-amber-600 text-base">Pillar 3: Governance, Privacy & Controls (2 Leads)</h3>
-                        <p class="mt-1">5. **Data Governance, Workflows & Policy Automation**</p>
-                        <p class="mt-1">6. **Privacy, Access, Security & Collibra Protect**</p>
-                    </div>
-                    <div class="p-3 bg-emerald-50 rounded-lg border-l-2 border-emerald-600">
-                        <h3 class="font-bold text-emerald-600 text-base">Pillar 4: Platform Experience & Industry (2 Leads)</h3>
-                        <p class="mt-1">7. **Catalog, Data Products, Domain Models & Platform UX** (incl. K8s/Perf Tuning)</p>
-                        <p class="mt-1">8. **SAP SOLEX, SAP Metadata & Industry Solution Accelerators**</p>
-                    </div>
+                <div class="p-4 bg-blue-50 rounded-lg">
+                    <p class="text-4xl font-bold text-emerald-600">Structured</p>
+                    <p class="text-sm text-slate-600 font-medium mt-1">Engine for Scaling New Offerings</p>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- NEW SECTION: Intake Criteria -->
-            <section class="lg:col-span-3 bg-white rounded-xl shadow-xl p-6 md:p-8">
-                <h2 class="text-3xl font-bold text-blue-700 mb-4">Intake & Prioritization Criteria (The "Sieve")</h2>
-                <p class="text-slate-600 mb-6 text-sm">All ideas are vetted through a strategic "sieve" to ensure alignment and maximize potential impact. This is the criteria for approving a new idea for an Incubation Sprint:</p>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <div class="p-4 bg-blue-50 rounded-lg border-l-4 border-blue-600">
-                        <h3 class="font-bold text-blue-700 mb-2">1. Strategic Fit</h3>
-                        <ul class="list-disc ml-4 text-xs text-slate-700 space-y-1">
-                            <li>**Clear problem** & measurable opportunity.</li>
-                            <li>Alignment to **Collibra GTM & product roadmap**.</li>
-                        </ul>
-                    </div>
-                    <div class="p-4 bg-emerald-50 rounded-lg border-l-4 border-emerald-600">
-                        <h3 class="font-bold text-emerald-700 mb-2">2. Market Potential</h3>
-                        <ul class="list-disc ml-4 text-xs text-slate-700 space-y-1">
-                            <li>**Repeatability** across multiple customers.</li>
-                            <li>Revenue potential (Ignite → REA → Accelerator).</li>
-                        </ul>
-                    </div>
-                    <div class="p-4 bg-amber-50 rounded-lg border-l-4 border-amber-600">
-                        <h3 class="font-bold text-amber-700 mb-2">3. Feasibility</h3>
-                        <ul class="list-disc ml-4 text-xs text-slate-700 space-y-1">
-                            <li>**Technical feasibility** & required SMEs.</li>
-                            <li>Clear "Time-to-Impact" (ideally < 90 days).</li>
-                        </ul>
-                    </div>
+        <section class="md:col-span-1 bg-white rounded-xl shadow-xl p-6">
+            <h2 class="text-2xl font-bold text-blue-700 mb-4">Mission & Charter: Our Mandate</h2>
+            <p class="text-slate-600 mb-6 text-sm">Our purpose is to stay ahead of the product curve and serve as the internal growth engine by turning emerging ideas into scalable PS offerings.</p>
+            <div class="flex flex-col space-y-4">
+                <div class="p-3 bg-pink-100 rounded-lg border-l-4 border-pink-600 flex items-center">
+                    <span class="text-2xl mr-3 text-pink-600">💡</span>
+                    <p class="font-semibold text-sm">'EXPLORE:' Stay ahead of emerging customer needs and acquisitions.</p>
                 </div>
-            </section>
-            
-            <section class="lg:col-span-3 bg-white rounded-xl shadow-xl p-6 md:p-8">
-                <h2 class="text-3xl font-bold text-blue-700 mb-4">The Innovation Flight Path: Interactive Prioritization</h2>
-                <p class="text-slate-600 mb-6 text-sm">This chart represents the sequential journey of an idea from high-altitude **Quick Win** (Stage 1) to **Landed Innovation** (Stage 4). **Use the button below to advance the flight path** and reveal new projects.</p>
-                <div class="chart-container-lg cursor-pointer">
-                    <canvas id="flightPathChart"></canvas>
+                <div class="p-3 bg-amber-100 rounded-lg border-l-4 border-amber-600 flex items-center">
+                    <span class="text-2xl mr-3 text-amber-600">✅</span>
+                    <p class="font-semibold text-sm">'VALIDATE:' Rapidly test and prove high-value solutions (MVPs).</p>
                 </div>
-                <div class="text-center mt-6">
-                    <button id="advanceFlight" class="py-3 px-8 bg-pink-600 text-white font-bold rounded-lg shadow-md hover:bg-pink-700 transition duration-150 transform hover:scale-105">
-                        START FLIGHT (Stage 1 / 4)
-                    </button>
-                    <p id="flightStatus" class="mt-2 text-sm text-slate-600 font-medium">Map Ready - Click to begin the Incubation journey.</p>
+                <div class="p-3 bg-blue-100 rounded-lg border-l-4 border-blue-600 flex items-center">
+                    <span class="text-2xl mr-3 text-blue-600">🤝</span>
+                    <p class="font-semibold text-sm">'COLLABORATE:' Work with Product/Engg on new releases, then enable the PS Delivery team.</p>
                 </div>
-            </section>
-
-            <!-- UPDATED SECTION: Operating Model -->
-            <section class="lg:col-span-1 bg-white rounded-xl shadow-xl p-6">
-                <h2 class="text-2xl font-bold text-blue-700 mb-4">Operating Model</h2>
-                <p class="text-slate-600 mb-6 text-sm">Our model is built for speed, agility, and direct collaboration with key stakeholders.</p>
-                <ul class="list-disc ml-4 text-sm text-slate-700 space-y-3">
-                    <li>Lean, **cross-functional pods** anchored around SMEs.</li>
-                    <li>Rapid experimentation with **2–6 week cycles**.</li>
-                    <li>**Direct collaboration** with Product, GTM, and Customer Success.</li>
-                    <li>**Clear handoff** to PS Delivery or Product for scaling.</li>
-                </ul>
-                <div class="mt-6 p-3 bg-yellow-50 rounded-lg border-2 border-amber-400">
-                    <p class="font-bold text-sm text-amber-800">❗ EXECUTION: 8 WORKSTREAM LEADS</p>
-                    <p class="text-xs text-amber-700 mt-1">Requires focused leadership across all 8 high-priority technical workstreams.</p>
+                <div class="p-3 bg-emerald-100 rounded-lg border-l-4 border-emerald-600 flex items-center">
+                    <span class="text-2xl mr-3 text-emerald-600">🚀</span>
+                    <p class="font-semibold text-sm">'SCALE:' Enable PS/Field teams with repeatable frameworks & revenue paths.</p>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- NEW SECTION: Governance -->
-            <section class="lg:col-span-1 bg-white rounded-xl shadow-xl p-6">
-                <h2 class="text-2xl font-bold text-blue-700 mb-4">Governance & Decision Flow</h2>
-                <p class="text-slate-600 mb-6 text-sm">A clear governance process ensures alignment, efficient resource use, and decisive action.</p>
-                <ul class="list-disc ml-4 text-sm text-slate-700 space-y-3">
-                    <li>**Monthly Incubation Council** (PS + Product + GTM) for tactical alignment.</li>
-                    <li>**Quarterly Business Review** (QBR) for strategic scaling decisions.</li>
-                    <li>Clear **Go/No-Go checkpoints** at each phase of the pipeline.</li>
-                    <li>Defined exit paths: **Scale-In, Partner-Led, or Sunset**.</li>
-                </ul>
-            </section>
-            
-            <section class="lg:col-span-1 bg-white rounded-xl shadow-xl p-6">
-                <h2 class="text-2xl font-bold text-blue-700 mb-4">Talent Selection Model</h2>
-                <p class="text-slate-600 mb-6 text-sm">Securing the **8 Workstream Leads** requires a rigorous, interest-driven process to find our "Flight Crew."</p>
-                <ul class="list-disc ml-4 text-sm text-slate-700 space-y-3">
-                    <li>**Passion & Mutual Fit:** Internal call for SMEs; alignment on mutual interest.</li>
-                    <li>**Proven Track Record:** Review of historical innovative work and deep technical expertise (K8s, LLMs, etc.).</li>
-                    <li>**Theme Alignment:** Direct fit for one of the 8 evolving workstreams.</li>
-                    <li>**Output Focus:** Ability to convert concepts into landed artifacts and train the bench.</li>
-                </ul>
-            </section>
-
-            <section class="lg:col-span-3 bg-white rounded-xl shadow-xl p-6 md:p-8">
-                <h2 class="text-3xl font-bold text-blue-700 mb-4">30-60-90 & Beyond Roadmap (Next 12-18 Months)</h2>
-                <p class="text-slate-600 mb-6 text-sm">Our flight path has clear checkpoints, moving rapidly from initial selection to global enablement, ensuring revenue impact within 12 months.</p>
-                <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
-                    <div class="p-4 bg-pink-50 rounded-lg border-t-4 border-pink-600">
-                        <h3 class="font-bold text-pink-600 mb-1">0-30 Days (Launch)</h3>
-                        <ul class="list-disc ml-4 text-xs text-slate-600">
-                            <li>Launch Intake Process.</li>
-                            <li>Finalize **5 Priority Pilots**.</li>
-                            <li>Secure Executive Sponsors.</li>
-                        </ul>
-                    </div>
-                    <div class="p-4 bg-amber-50 rounded-lg border-t-4 border-amber-600">
-                        <h3 class="font-bold text-amber-600 mb-1">30-90 Days (Pilot)</h3>
-                        <ul class="list-disc ml-4 text-xs text-slate-600">
-                            <li>Run **3–5 Customer Pilots**.</li>
-                            <li>Build Core Accelerators (MVP).</li>
-                            <li>Achieve TTP < 90 Days.</li>
-                        </ul>
-                    </div>
-                    <div class="p-4 bg-emerald-50 rounded-lg border-t-4 border-emerald-600">
-                        <h3 class="font-bold text-emerald-600 mb-1">6-12 Months (Scale)</h3>
-                        <ul class="list-disc ml-4 text-xs text-slate-600">
-                            <li>Create **2 Scalable PS Offerings**.</li>
-                            <li>**Execute First Spin-In** (Handoff).</li>
-                            <li>First Revenue from incubated services.</li>
-                        </ul>
-                    </div>
-                    <div class="p-4 bg-blue-50 rounded-lg border-t-4 border-blue-600">
-                        <h3 class="font-bold text-blue-600 mb-1">Beyond 12M (Expand)</h3>
-                        <ul class="list-disc ml-4 text-xs text-slate-600">
-                            <li>Expand globally via Partners.</li>
-                            <li>Finalize next year's H3 bets.</li>
-                            <li>Measure Time-to-Scale KPI.</li>
-                        </ul>
-                    </div>
+        <section class="md:col-span-2 bg-white rounded-xl shadow-xl p-6 text-base">
+            <h2 class="text-2xl font-bold text-blue-700 mb-4">Strategic Themes & Product Focus (8 Workstreams)</h2>
+            <p class="text-slate-600 mb-6 text-sm">Execution requires 'Dedicated Incubator Leads' across 4 Pillars. This model ensures focused technical depth for every major product theme:</p>
+            <div class="grid grid-cols-2 gap-4 text-xs">
+                <div class="p-3 bg-pink-50 rounded-lg border-l-2 border-pink-600">
+                    <h3 class="font-bold text-pink-600 text-base">Pillar 1: AI, Automation & Intelligence (2 Leads)</h3>
+                    <p class="mt-1">1. 'AI Governance' & Responsible Intelligence</p>
+                    <p class="mt-1">2. 'Unstructured Data Intelligence', AI Agents, MCP Server & Command Center</p>
                 </div>
-            </section>
-        
-            <!-- UPDATED SECTION: Team Outputs -->
-            <section class="md:col-span-1 bg-white rounded-xl shadow-xl p-6">
-                <h2 class="text-2xl font-bold text-blue-700 mb-4">Team Outputs & Expectations</h2>
-                <p class="text-slate-600 mb-6 text-sm">Our focus is on tangible, scalable deliverables that empower PS delivery teams and translate directly to customer revenue and confidence.</p>
-                
-                <div class="font-bold text-base text-pink-600 mb-2">LANDED ARTIFACTS (THE DELIVERABLES)</div>
-                <ul class="list-disc ml-4 text-xs text-slate-700 space-y-1 mb-6">
-                    <li>**Certified Playbooks** and Starter Kits.</li>
-                    <li>**Reference Architectures** (e.g., K8s Patterns).</li>
-                    <li>Reusable **Code Accelerators** (Automation scripts).</li>
-                    <li>**Cross-Product Innovation Solutions** (e.g., DQ+Protect).</li>
-                    <li>**Industry Solution Accelerators** (e.g., SAP SOLEX).</li>
-                    <li>Customer-Ready **Demos** and Blueprints.</li>
-                </ul>
-
-                <div class="font-bold text-base text-blue-600 mb-2">VALUE & SCALE EXPECTATIONS</div>
-                <ul class="list-disc ml-4 text-xs text-slate-700 space-y-1">
-                    <li>Achieve **Time-to-Pilot < 90 days**.</li>
-                    <li>Contribute to **Expansion Deals** (measured by revenue).</li>
-                    <li>Ensure **Field Enablement** adoption (>80% usage).</li>
-                </ul>
-            </section>
-
-            <!-- UPDATED SECTION: Enablement Model -->
-            <section class="md:col-span-1 bg-white rounded-xl shadow-xl p-6">
-                <h2 class="text-2xl font-bold text-blue-700 mb-4">Enablement Model (Bench)</h2>
-                <p class="text-slate-600 mb-6 text-sm">We ensure safe landing by enabling the PS team bench (SMEs/Architects) with confidence and reusable assets.</p>
-                
-                <div class="font-bold text-base text-pink-600 mb-2">FIELD ENABLEMENT OUTPUTS</div>
-                <ul class="list-disc ml-4 text-xs text-slate-700 space-y-1 mb-6">
-                    <li>Build **repeatable frameworks, accelerators, and starter kits**.</li>
-                    <li>**Train PS, Solution Architects, Partners** on new offerings.</li>
-                    <li>Create **reusable playbooks, reference architectures, and demos**.</li>
-                    <li>**Evangelize** new incubated offerings via GTM and events.</li>
-                </ul>
-
-                <div class="font-bold text-base text-blue-600 mb-2">INCUBATION TALENT PIPELINE</div>
-                <ol class="list-decimal ml-4 text-xs text-slate-600 space-y-1">
-                    <li>Internal SME Nomination (PS/Product).</li>
-                    <li>Temporary Pod Assignments (2-6 week sprints).</li>
-                    <li>Targeted External Hiring (AI/Cloud Experts).</li>
-                </ol>
-            </section>
-
-            <section class="md:col-span-1 bg-white rounded-xl shadow-xl p-6">
-                 <h2 class="text-2xl font-bold text-blue-700 mb-4">Metrics: Speed & Scale</h2>
-                <p class="text-slate-600 mb-6 text-sm">We are focused on **Velocity (TTP)** and **Value (Scale)**, tracking our performance against industry baselines.</p>
-                <div class="chart-container h-64 max-h-[300px]">
-                    <canvas id="metricsBarChart"></canvas>
+                <div class="p-3 bg-blue-50 rounded-lg border-l-2 border-blue-700">
+                    <h3 class="font-bold text-blue-700 text-base">Pillar 2: Data Quality, Observability & Trust (2 Leads)</h3>
+                    <p class="mt-1">3. 'Data Quality & Observability' (Unified DQ, CDQ, pushdown, rules automation)</p>
+                    <p class="mt-1">4. 'Lineage & Integration Engineering' (ETL lineage, event-based ingestion)</p>
                 </div>
-                <ul class="text-xs text-slate-600 mt-4 space-y-1">
-                    <li>🎯 **TTP (Time-to-Pilot):** 90 Days vs. 180 Industry Baseline.</li>
-                    <li>💰 **Revenue:** Track revenue from incubated services (TTP & Time-to-Scale).</li>
-                    <li>📈 **Adoption:** Field Enablement & NPS Improvement.</li>
-                </ul>
-            </section>
-
-            <section class="md:col-span-3 bg-white rounded-xl shadow-xl p-6">
-                <h2 class="text-2xl font-bold text-blue-700 mb-4">Closing: Join the Flight Crew</h2>
-                <p class="text-slate-600 mb-6 text-lg">The success of our Flight Path is dependent on cross-functional commitment. We need partnership to secure resources and sustain the momentum established by these early wins. Let's build the future, together.</p>
-                <div class="flex flex-col md:flex-row justify-between space-y-3 md:space-y-0 md:space-x-4">
-                    <button class="flex-1 py-3 bg-pink-600 text-white font-bold rounded-lg shadow-md hover:bg-pink-700 transition duration-150">
-                        SUBMIT IDEAS
-                    </button>
-                    <button class="flex-1 py-3 bg-blue-600 text-white font-bold rounded-lg shadow-md hover:bg-blue-700 transition duration-150">
-                        NOMINATE TALENT
-                    </button>
-                    <button class="flex-1 py-3 bg-emerald-600 text-white font-bold rounded-lg shadow-md hover:bg-emerald-700 transition duration-150">
-                        SPONSOR A PILOT
-                    </button>
+                <div class="p-3 bg-amber-50 rounded-lg border-l-2 border-amber-600">
+                    <h3 class="font-bold text-amber-600 text-base">Pillar 3: Governance, Privacy & Controls (2 Leads)</h3>
+                    <p class="mt-1">5. 'Data Governance, Workflows & Policy Automation'</p>
+                    <p class="mt-1">6. 'Privacy, Access, Security & Collibra Protect'</p>
                 </div>
-            </section>
+                <div class="p-3 bg-emerald-50 rounded-lg border-l-2 border-emerald-600">
+                    <h3 class="font-bold text-emerald-600 text-base">Pillar 4: Platform Experience & Industry (2 Leads)</h3>
+                    <p class="mt-1">7. 'Catalog, Data Products, Domain Models & Platform UX' (incl. K8s/Perf Tuning)</p>
+                    <p class="mt-1">8. 'SAP SOLEX, SAP Metadata & Industry Solution Accelerators'</p>
+                </div>
+            </div>
+        </section>
 
-        </main>
+        <!-- NEW SECTION: Intake Criteria -->
+        <section class="lg:col-span-3 bg-white rounded-xl shadow-xl p-6 md:p-8">
+            <h2 class="text-3xl font-bold text-blue-700 mb-4">Intake & Prioritization Criteria (The "Sieve")</h2>
+            <p class="text-slate-600 mb-6 text-sm">All ideas are vetted through a strategic "sieve" to ensure alignment and maximize potential impact. This is the criteria for approving a new idea for an Incubation Sprint:</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div class="p-4 bg-blue-50 rounded-lg border-l-4 border-blue-600">
+                    <h3 class="font-bold text-blue-700 mb-2">1. Strategic Fit</h3>
+                    <ul class="list-disc ml-4 text-xs text-slate-700 space-y-1">
+                        <li>'Clear problem' & measurable opportunity.</li>
+                        <li>Alignment to 'Collibra GTM & product roadmap'.</li>
+                    </ul>
+                </div>
+                <div class="p-4 bg-emerald-50 rounded-lg border-l-4 border-emerald-600">
+                    <h3 class="font-bold text-emerald-700 mb-2">2. Market Potential</h3>
+                    <ul class="list-disc ml-4 text-xs text-slate-700 space-y-1">
+                        <li>'Repeatability' across multiple customers.</li>
+                        <li>Revenue potential (Ignite → REA → Accelerator).</li>
+                    </ul>
+                </div>
+                <div class="p-4 bg-amber-50 rounded-lg border-l-4 border-amber-600">
+                    <h3 class="font-bold text-amber-700 mb-2">3. Feasibility</h3>
+                    <ul class="list-disc ml-4 text-xs text-slate-700 space-y-1">
+                        <li>'Technical feasibility' & required SMEs.</li>
+                        <li>Clear "Time-to-Impact" (ideally < 90 days).</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-    </div>
+        <section class="lg:col-span-3 bg-white rounded-xl shadow-xl p-6 md:p-8">
+            <h2 class="text-3xl font-bold text-blue-700 mb-4">The Innovation Flight Path: Interactive Prioritization</h2>
+            <p class="text-slate-600 mb-6 text-sm">This chart represents the sequential journey of an idea from high-altitude 'Quick Win' (Stage 1) to 'Landed Innovation' (Stage 4). 'Use the button below to advance the flight path' and reveal new projects.</p>
+            <div class="chart-container-lg cursor-pointer">
+                <canvas id="flightPathChart"></canvas>
+            </div>
+            <div class="text-center mt-6">
+                <button id="advanceFlight" class="py-3 px-8 bg-pink-600 text-white font-bold rounded-lg shadow-md hover:bg-pink-700 transition duration-150 transform hover:scale-105">
+                    START FLIGHT (Stage 1 / 4)
+                </button>
+                <p id="flightStatus" class="mt-2 text-sm text-slate-600 font-medium">Map Ready - Click to begin the Incubation journey.</p>
+            </div>
+        </section>
 
-    <script>
-        let flightStage = 0;
-        let flightChart;
+        <!-- UPDATED SECTION: Operating Model -->
+        <section class="lg:col-span-1 bg-white rounded-xl shadow-xl p-6">
+            <h2 class="text-2xl font-bold text-blue-700 mb-4">Operating Model</h2>
+            <p class="text-slate-600 mb-6 text-sm">Our model is built for speed, agility, and direct collaboration with key stakeholders.</p>
+            <ul class="list-disc ml-4 text-sm text-slate-700 space-y-3">
+                <li>Lean, 'cross-functional pods' anchored around SMEs.</li>
+                <li>Rapid experimentation with '2–6 week cycles'.</li>
+                <li>'Direct collaboration' with Product, GTM, and Customer Success.</li>
+                <li>'Clear handoff' to PS Delivery or Product for scaling.</li>
+            </ul>
+            <div class="mt-6 p-3 bg-yellow-50 rounded-lg border-2 border-amber-400">
+                <p class="font-bold text-sm text-amber-800">❗ EXECUTION: 8 WORKSTREAM LEADS</p>
+                <p class="text-xs text-amber-700 mt-1">Requires focused leadership across all 8 high-priority technical workstreams.</p>
+            </div>
+        </section>
 
-        // --- CHART DATA CONFIG ---
-        const CHART_COLORS = {
-            blue: '#2563eb', 
-            pink: '#db2777',
-            amber: '#f59e0b',
-            emerald: '#10b981',
-            slate: '#64748b'
-        };
-        
-        // This is the master list of all projects
-        const allProjectData = [
-            {
-                label: 'Pillar 1: AI, Automation & Intelligence',
-                data: [
-                    // Position Q4: Innovation (Landed)
-                    { x: 8.5, y: 4, r: 18, label: 'AI Governance & Responsible Intelligence', artifacts: ['AI Governance Playbook v1', 'Risk & Compliance Matrix', 'Reference Architecture'] },
-                    // Position Q1: Quick Win (High Altitude)
-                    { x: 3.5, y: 9.5, r: 20, label: 'Unstructured Data Intelligence & Agents', artifacts: ['Unstructured Data - Quick Win Playbook', 'POC Findings (MCP/Agents)', 'Demo Script'] }
-                ],
-                backgroundColor: CHART_COLORS.pink + '99',
-                hoverBackgroundColor: CHART_COLORS.pink,
-            },
-            {
-                label: 'Pillar 4: Platform Experience & Industry',
-                data: [
-                    // Position Q2: Enterprise Scale
-                    { x: 7, y: 7, r: 14, label: 'SAP SOLEX & Industry Accelerators', artifacts: ['SAP Metadata Playbook', 'Industry Solution Demo', 'Reusable DQ Ruleset'] },
-                    // Position Q2: Enterprise Scale
-                    { x: 6, y: 8, r: 16, label: 'Catalog, Data Products & Platform UX (K8s/Perf)', artifacts: ['K8s Deployment Guide', 'Performance Tuning Best Practices', 'Data Product Reference Architecture'] }
-                ],
-                backgroundColor: CHART_COLORS.emerald + '99',
-                hoverBackgroundColor: CHART_COLORS.emerald,
-            },
-            {
-                label: 'Pillar 3: Governance, Privacy & Controls',
-                data: [
-                    // Position Q4: Innovation (Landed)
-                    { x: 8, y: 3.5, r: 25, label: 'Privacy, Access, Security & Collibra Protect', artifacts: ['Market Research (Protect)', 'Competitive Analysis', 'High-Level Business Case'] },
-                    // Position Q1: Quick Win (High Altitude)
-                    { x: 2.5, y: 8.5, r: 10, label: 'Data Governance, Workflows & Policy Automation', artifacts: ['Common Workflow Library', 'Policy Automation Starter Kit', 'Demo Video'] }
-                ],
-                backgroundColor: CHART_COLORS.amber + '99',
-                hoverBackgroundColor: CHART_COLORS.amber,
-            },
-            {
-                label: 'Pillar 2: Data Quality, Observability & Trust',
-                data: [
-                    // Position Q3: Automation & R&D
-                    { x: 3, y: 4, r: 10, label: 'Lineage & Integration Engineering (ETL/Events)', artifacts: ['Event-Based Ingestion Framework', 'ETL Lineage Parsers', 'Best Practices Guide'] },
-                    // Position Q2: Enterprise Scale
-                    { x: 7, y: 8, r: 12, label: 'DQ & Observability (Unified DQ, CDQ, pushdown)', artifacts: ['Unified DQ Dashboard (Beta)', 'Pushdown Optimization Patterns', 'Automated Ruleset (CDQ)'] }
-                ],
-                backgroundColor: CHART_COLORS.blue + '99',
-                hoverBackgroundColor: CHART_COLORS.blue,
+        <!-- NEW SECTION: Governance -->
+        <section class="lg:col-span-1 bg-white rounded-xl shadow-xl p-6">
+            <h2 class="text-2xl font-bold text-blue-700 mb-4">Governance & Decision Flow</h2>
+            <p class="text-slate-600 mb-6 text-sm">A clear governance process ensures alignment, efficient resource use, and decisive action.</p>
+            <ul class="list-disc ml-4 text-sm text-slate-700 space-y-3">
+                <li>'Monthly Incubation Council' (PS + Product + GTM) for tactical alignment.</li>
+                <li>'Quarterly Business Review' (QBR) for strategic scaling decisions.</li>
+                <li>Clear 'Go/No-Go checkpoints' at each phase of the pipeline.</li>
+                <li>Defined exit paths: 'Scale-In, Delivery-Led, or Sunset'.</li>
+            </ul>
+        </section>
+
+        <section class="lg:col-span-1 bg-white rounded-xl shadow-xl p-6">
+            <h2 class="text-2xl font-bold text-blue-700 mb-4">Incubation Readiness Criteria</h2>
+            <p class="text-slate-600 mb-6 text-sm">Securing the '8 Workstream Leads' requires a rigorous, interest-driven process to find our "Flight Crew."</p>
+            <ul class="list-disc ml-4 text-sm text-slate-700 space-y-3">
+                <li>'Passion & Mutual Fit:' Genuine interest and alignment with incubation goals.</li>
+                <li>'Proven Track Record:' Review of historical innovative work and deep technical expertise.</li>
+                <li>'Theme Alignment:' Direct fit for one of the 8 evolving workstreams.</li>
+                <li>'Output Orientation:' Ability to convert concepts into landed artifacts and train the team.</li>
+            </ul>
+        </section>
+
+        <section id="roadmapSection" class="lg:col-span-3 bg-white rounded-xl shadow-xl p-6 md:p-8">
+            <h2 class="text-3xl font-bold text-blue-700 mb-4">30-60-90 & Beyond Roadmap (Next 12-18 Months)</h2>
+            <p class="text-slate-600 mb-6 text-sm">Our flight path has clear checkpoints, moving rapidly from initial selection to global enablement, ensuring revenue impact within 12 months.</p>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+                <div class="p-4 bg-pink-50 rounded-lg border-t-4 border-pink-600">
+                    <h3 class="font-bold text-pink-600 mb-1">0-30 Days (Launch)</h3>
+                    <ul class="list-disc ml-4 text-xs text-slate-600">
+                        <li>Launch Intake Process.</li>
+                        <li>Finalize '5 Priority Pilots'.</li>
+                        <li>Secure Executive Sponsors.</li>
+                    </ul>
+                </div>
+                <div class="p-4 bg-amber-50 rounded-lg border-t-4 border-amber-600">
+                    <h3 class="font-bold text-amber-600 mb-1">30-90 Days (Pilot)</h3>
+                    <ul class="list-disc ml-4 text-xs text-slate-600">
+                        <li>Run '3–5 Customer Pilots'.</li>
+                        <li>Build Core Accelerators (MVP).</li>
+                        <li>Achieve TTP < 90 Days.</li>
+                    </ul>
+                </div>
+                <div class="p-4 bg-emerald-50 rounded-lg border-t-4 border-emerald-600">
+                    <h3 class="font-bold text-emerald-600 mb-1">6-12 Months (Scale)</h3>
+                    <ul class="list-disc ml-4 text-xs text-slate-600">
+                        <li>Create '2 Scalable PS Offerings'.</li>
+                        <li>'Execute First Spin-In' (Handoff).</li>
+                        <li>First Revenue from incubated services.</li>
+                    </ul>
+                </div>
+                <div class="p-4 bg-blue-50 rounded-lg border-t-4 border-blue-600">
+                    <h3 class="font-bold text-blue-600 mb-1">Beyond 12M (Expand)</h3>
+                    <ul class="list-disc ml-4 text-xs text-slate-600">
+                        <li>Expand globally via Partners.</li>
+                        <li>Finalize next year's H3 bets.</li>
+                        <li>Measure Time-to-Scale KPI.</li>
+                    </ul>
+                </div>
+            </div>
+            <button
+                    onclick="toggleRoadmap()"
+                    class="px-4 py-2 bg-blue-700 text-white rounded-lg shadow hover:bg-blue-800 transition">
+                Toggle Roadmap
+            </button>
+        </section>
+
+        <!-- UPDATED SECTION: Team Outputs -->
+        <section class="md:col-span-1 bg-white rounded-xl shadow-xl p-6">
+            <h2 class="text-2xl font-bold text-blue-700 mb-4">Team Outputs & Expectations</h2>
+            <p class="text-slate-600 mb-6 text-sm">Our focus is on tangible, scalable deliverables that empower PS delivery teams and translate directly to customer revenue and confidence.</p>
+
+            <div class="font-bold text-base text-pink-600 mb-2">LANDED ARTIFACTS (THE DELIVERABLES)</div>
+            <ul class="list-disc ml-4 text-xs text-slate-700 space-y-1 mb-6">
+                <li>'Certified Playbooks' and Starter Kits.</li>
+                <li>'Reference Architectures' (e.g., K8s Patterns).</li>
+                <li>Reusable 'Code Accelerators' (Automation scripts).</li>
+                <li>'Cross-Product Innovation Solutions' (e.g., DQ+Protect).</li>
+                <li>'Industry Solution Accelerators' (e.g., SAP SOLEX).</li>
+                <li>Customer-Ready 'Demos' and Blueprints.</li>
+            </ul>
+
+            <div class="font-bold text-base text-blue-600 mb-2">VALUE & SCALE EXPECTATIONS</div>
+            <ul class="list-disc ml-4 text-xs text-slate-700 space-y-1">
+                <li>Achieve 'Time-to-Pilot < 90 days'.</li>
+                <li>Contribute to 'Expansion Deals' (measured by revenue).</li>
+                <li>Ensure 'Field Enablement' adoption (>80% usage).</li>
+            </ul>
+        </section>
+
+        <!-- UPDATED SECTION: Enablement Model -->
+        <section class="md:col-span-1 bg-white rounded-xl shadow-xl p-6">
+            <h2 class="text-2xl font-bold text-blue-700 mb-4">Enablement Model</h2>
+            <p class="text-slate-600 mb-6 text-sm">We ensure safe landing by enabling the PS team (SMEs/Architects) with confidence and reusable assets.</p>
+
+            <div class="font-bold text-base text-pink-600 mb-2">FIELD ENABLEMENT OUTPUTS</div>
+            <ul class="list-disc ml-4 text-xs text-slate-700 space-y-1 mb-6">
+                <li>Build 'repeatable frameworks, accelerators, and starter kits'.</li>
+                <li>'Train PS, Solution Architects, Partners' on new offerings.</li>
+                <li>Create 'reusable playbooks, reference architectures, and demos'.</li>
+                <li>'Evangelize' new incubated offerings via GTM and events.</li>
+            </ul>
+        </section>
+
+        <!-- section class="md:col-span-1 bg-white rounded-xl shadow-xl p-6">
+            <h2 class="text-2xl font-bold text-blue-700 mb-4">Metrics: Speed & Scale</h2>
+            <p class="text-slate-600 mb-6 text-sm">Focused on 'Velocity (TTP)' and 'Value (Scale)', tracking performance.</p>
+            <div class="chart-container h-64 max-h-[300px]">
+                <canvas id="metricsBarChart"></canvas>
+            </div>
+            <ul class="text-xs text-slate-600 mt-4 space-y-1">
+                <li>🎯 'TTP (Time-to-Pilot):' 90 Days.</li>
+                <li>💰 'Revenue:' Track value from incubated services (TTP & Time-to-Scale).</li>
+                <li>📈 'Adoption:' Field Enablement & NPS Improvement.</li>
+            </ul>
+        </section -->
+
+        <section class="md:col-span-3 bg-white rounded-xl shadow-xl p-6">
+            <h2 class="text-2xl font-bold text-blue-700 mb-4">Closing: Join the Flight Crew</h2>
+            <p class="text-slate-600 mb-6 text-lg">The success of our Flight Path is dependent on cross-functional commitment. We need partnership to secure resources and sustain the momentum established by these early wins. Let's build the future, together.</p>
+            <div class="flex flex-col md:flex-row justify-between space-y-3 md:space-y-0 md:space-x-4">
+                <button class="flex-1 py-3 bg-pink-600 text-white font-bold rounded-lg shadow-md hover:bg-pink-700 transition duration-150">
+                    BRING NEW THINKING
+                </button>
+                <button class="flex-1 py-3 bg-blue-600 text-white font-bold rounded-lg shadow-md hover:bg-blue-700 transition duration-150">
+                    APPLY FOR A TRACK
+                </button>
+                <button class="flex-1 py-3 bg-emerald-600 text-white font-bold rounded-lg shadow-md hover:bg-emerald-700 transition duration-150">
+                    SHAPE THE FUTURE
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+</div>
+
+<script>
+    let flightStage = 0;
+    let flightChart;
+
+    // --- CHART DATA CONFIG ---
+    const CHART_COLORS = {
+        blue: '#2563eb',
+        pink: '#db2777',
+        amber: '#f59e0b',
+        emerald: '#10b981',
+        slate: '#64748b'
+    };
+
+    // This is the master list of all projects
+    const allProjectData = [
+        {
+            label: 'Pillar 1: AI, Automation & Intelligence',
+            data: [
+                // Position Q4: Innovation (Landed)
+                { x: 8.5, y: 4, r: 18, label: 'AI Governance & Responsible Intelligence', artifacts: ['AI Governance Playbook v1', 'Risk & Compliance Matrix', 'Reference Architecture'] },
+                // Position Q1: Quick Win (High Altitude)
+                { x: 3.5, y: 9.5, r: 20, label: 'Unstructured Data Intelligence & Agents', artifacts: ['Unstructured Data - Quick Win Playbook', 'POC Findings (MCP/Agents)', 'Demo Script'] }
+            ],
+            backgroundColor: CHART_COLORS.pink + '99',
+            hoverBackgroundColor: CHART_COLORS.pink,
+        },
+        {
+            label: 'Pillar 4: Platform Experience & Industry',
+            data: [
+                // Position Q2: Enterprise Scale
+                { x: 7, y: 7, r: 14, label: 'SAP SOLEX & Industry Accelerators', artifacts: ['SAP Metadata Playbook', 'Industry Solution Demo', 'Reusable DQ Ruleset'] },
+                // Position Q2: Enterprise Scale
+                { x: 6, y: 8, r: 16, label: 'Catalog, Data Products & Platform UX (K8s/Perf)', artifacts: ['K8s Deployment Guide', 'Performance Tuning Best Practices', 'Data Product Reference Architecture'] }
+            ],
+            backgroundColor: CHART_COLORS.emerald + '99',
+            hoverBackgroundColor: CHART_COLORS.emerald,
+        },
+        {
+            label: 'Pillar 3: Governance, Privacy & Controls',
+            data: [
+                // Position Q4: Innovation (Landed)
+                { x: 8, y: 3.5, r: 25, label: 'Privacy, Access, Security & Collibra Protect', artifacts: ['Market Research (Protect)', 'Competitive Analysis', 'High-Level Business Case'] },
+                // Position Q1: Quick Win (High Altitude)
+                { x: 2.5, y: 8.5, r: 10, label: 'Data Governance, Workflows & Policy Automation', artifacts: ['Common Workflow Library', 'Policy Automation Starter Kit', 'Demo Video'] }
+            ],
+            backgroundColor: CHART_COLORS.amber + '99',
+            hoverBackgroundColor: CHART_COLORS.amber,
+        },
+        {
+            label: 'Pillar 2: Data Quality, Observability & Trust',
+            data: [
+                // Position Q3: Automation & R&D
+                { x: 3, y: 4, r: 10, label: 'Lineage & Integration Engineering (ETL/Events)', artifacts: ['Event-Based Ingestion Framework', 'ETL Lineage Parsers', 'Best Practices Guide'] },
+                // Position Q2: Enterprise Scale
+                { x: 7, y: 8, r: 12, label: 'DQ & Observability (Unified DQ, CDQ, pushdown)', artifacts: ['Unified DQ Dashboard (Beta)', 'Pushdown Optimization Patterns', 'Automated Ruleset (CDQ)'] }
+            ],
+            backgroundColor: CHART_COLORS.blue + '99',
+            hoverBackgroundColor: CHART_COLORS.blue,
+        }
+    ];
+
+    // This defines the 5 stages (0-4) of the narrative
+    // Mapping projects to their "home" quadrant
+    const projectQuadrants = (item) => {
+        const { x, y } = item;
+        if (y >= 5 && x <= 5) return 1; // Q1
+        if (y >= 5 && x > 5) return 2;  // Q2
+        if (y < 5 && x <= 5) return 3;  // Q3
+        if (y < 5 && x > 5) return 4;   // Q4
+        return 0;
+    };
+
+    const flightStages = [
+        { // Stage 0: Map only
+            status: "Map Ready - Click to begin the Incubation journey.",
+            dataFilter: (item) => false, // No data visible
+            plane: false,
+            landed: false
+        },
+        { // Stage 1: Customer-Ready Quick Wins (Q1)
+            status: "Stage 1: ✈️ 30,000 ft Vision (Customer-Ready Quick Wins) - Pilots Selected.",
+            dataFilter: (item) => projectQuadrants(item) === 1, // Q1
+            plane: { x: 3.5, y: 9.2 }, // Top-Left
+            landed: false
+        },
+        { // Stage 2: Enterprise-Scale Enablement (Q2)
+            status: "Stage 2: Descent & Validation (Enterprise-Scale Enablement) - Building Momentum.",
+            dataFilter: (item) => projectQuadrants(item) <= 2, // Q1 + Q2
+            plane: { x: 7.0, y: 7.7 }, // Top-Right (Moving down and right)
+            landed: false
+        },
+        { // Stage 3: Automation & R&D (Q3)
+            status: "Stage 3: Final Approach (Automation & Industry Patterns) - Refinements in R&D.",
+            dataFilter: (item) => projectQuadrants(item) <= 3, // Q1 + Q2 + Q3
+            plane: { x: 3.5, y: 4.2 }, // Bottom-Left (Final approach zone)
+            landed: false
+        },
+        { // Stage 4: Innovation & Future Readiness (Q4) - Landed
+            status: "Stage 4: 🛬 FLIGHT LANDED! (Innovation & Future Readiness) - All Artifacts Delivered.",
+            dataFilter: () => true, // All data visible
+            plane: { x: 8.5, y: 3.7 }, // Bottom-Right (Landed position)
+            landed: true
+        }
+    ];
+
+    // --- Custom Plugin to Draw Plane, Titles, and Map Area ---
+    const flightPathPlugin = {
+        id: 'flightPathPlugin',
+        afterDraw: (chart) => {
+            const { ctx, chartArea: { left, top, right, bottom }, scales: { x, y } } = chart;
+            const stage = flightStage; // Use global flightStage
+
+            ctx.save();
+
+            // 1. Draw Conceptual Zone Labels (No lines)
+            ctx.font = 'bold 12px "Inter"';
+
+            // Q1 (Top-Left)
+            ctx.fillStyle = 'rgba(5, 150, 105, 0.6)'; // Green
+            ctx.textAlign = 'left';
+            ctx.textBaseline = 'top';
+            ctx.fillText(`1. Customer-Ready Quick Wins (30k ft)`, left + 10, top + 10);
+
+            // Q2 (Top-Right)
+            ctx.fillStyle = 'rgba(30, 58, 138, 0.6)'; // Blue
+            ctx.textAlign = 'right';
+            ctx.textBaseline = 'top';
+            ctx.fillText(`2. Enterprise-Scale Enablement`, right - 10, top + 10);
+
+            // Q3 (Bottom-Left)
+            ctx.fillStyle = 'rgba(71, 85, 105, 0.6)'; // Slate
+            ctx.textAlign = 'left';
+            ctx.textBaseline = 'bottom';
+            ctx.fillText(`3. Automation & Industry Patterns (R&D)`, left + 10, bottom - 10);
+
+            // Q4 (Bottom-Right)
+            ctx.fillStyle = 'rgba(219, 39, 119, 0.6)'; // Pink
+            ctx.textAlign = 'right';
+            ctx.textBaseline = 'bottom';
+            ctx.fillText(`4. Innovation & Future Readiness (Landed)`, right - 10, bottom - 10);
+
+
+            // 2. Draw Plane/Landed Icon based on Stage
+            const currentStageConfig = flightStages[stage];
+            const planeSize = 50; // '' INCREASED ICON SIZE ''
+
+            if (currentStageConfig.plane) {
+                const planeX_px = x.getPixelForValue(currentStageConfig.plane.x);
+                const planeY_px = y.getPixelForValue(currentStageConfig.plane.y);
+
+                ctx.font = `${planeSize}px serif`; // Set font size for emoji
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+
+                if (currentStageConfig.landed) {
+                    ctx.fillText('🛬', planeX_px, planeY_px); // '' LANDING PLANE EMOJI ''
+                } else {
+                    ctx.fillText('✈️', planeX_px, planeY_px); // '' FLYING PLANE EMOJI ''
+                }
             }
-        ];
-        
-        // This defines the 5 stages (0-4) of the narrative
-        // Mapping projects to their "home" quadrant
-        const projectQuadrants = (item) => {
-            const { x, y } = item;
-            if (y >= 5 && x <= 5) return 1; // Q1
-            if (y >= 5 && x > 5) return 2;  // Q2
-            if (y < 5 && x <= 5) return 3;  // Q3
-            if (y < 5 && x > 5) return 4;   // Q4
-            return 0;
-        };
-
-        const flightStages = [
-            { // Stage 0: Map only
-                status: "Map Ready - Click to begin the Incubation journey.", 
-                dataFilter: (item) => false, // No data visible
-                plane: false, 
-                landed: false 
-            },
-            { // Stage 1: Customer-Ready Quick Wins (Q1)
-                status: "Stage 1: ✈️ 30,000 ft Vision (Customer-Ready Quick Wins) - Pilots Selected.", 
-                dataFilter: (item) => projectQuadrants(item) === 1, // Q1
-                plane: { x: 3.5, y: 9.2 }, // Top-Left
-                landed: false 
-            },
-            { // Stage 2: Enterprise-Scale Enablement (Q2)
-                status: "Stage 2: Descent & Validation (Enterprise-Scale Enablement) - Building Momentum.", 
-                dataFilter: (item) => projectQuadrants(item) <= 2, // Q1 + Q2
-                plane: { x: 7.0, y: 7.7 }, // Top-Right (Moving down and right)
-                landed: false 
-            },
-            { // Stage 3: Automation & R&D (Q3)
-                status: "Stage 3: Final Approach (Automation & Industry Patterns) - Refinements in R&D.", 
-                dataFilter: (item) => projectQuadrants(item) <= 3, // Q1 + Q2 + Q3
-                plane: { x: 3.5, y: 4.2 }, // Bottom-Left (Final approach zone)
-                landed: false 
-            },
-            { // Stage 4: Innovation & Future Readiness (Q4) - Landed
-                status: "Stage 4: 🛬 FLIGHT LANDED! (Innovation & Future Readiness) - All Artifacts Delivered.", 
-                dataFilter: () => true, // All data visible
-                plane: { x: 8.5, y: 3.7 }, // Bottom-Right (Landed position)
-                landed: true 
-            }
-        ];
-
-        // --- Custom Plugin to Draw Plane, Titles, and Map Area ---
-        const flightPathPlugin = {
-            id: 'flightPathPlugin',
-            afterDraw: (chart) => {
-                const { ctx, chartArea: { left, top, right, bottom }, scales: { x, y } } = chart;
-                const stage = flightStage; // Use global flightStage
-
-                ctx.save();
-                
-                // 1. Draw Conceptual Zone Labels (No lines)
-                ctx.font = 'bold 12px "Inter"';
-
-                // Q1 (Top-Left)
-                ctx.fillStyle = 'rgba(5, 150, 105, 0.6)'; // Green
-                ctx.textAlign = 'left';
-                ctx.textBaseline = 'top';
-                ctx.fillText(`1. Customer-Ready Quick Wins (30k ft)`, left + 10, top + 10);
-                
-                // Q2 (Top-Right)
-                ctx.fillStyle = 'rgba(30, 58, 138, 0.6)'; // Blue
-                ctx.textAlign = 'right';
-                ctx.textBaseline = 'top';
-                ctx.fillText(`2. Enterprise-Scale Enablement`, right - 10, top + 10);
-                
-                // Q3 (Bottom-Left)
-                ctx.fillStyle = 'rgba(71, 85, 105, 0.6)'; // Slate
-                ctx.textAlign = 'left';
-                ctx.textBaseline = 'bottom';
-                ctx.fillText(`3. Automation & Industry Patterns (R&D)`, left + 10, bottom - 10);
-
-                // Q4 (Bottom-Right)
-                ctx.fillStyle = 'rgba(219, 39, 119, 0.6)'; // Pink
-                ctx.textAlign = 'right';
-                ctx.textBaseline = 'bottom';
-                ctx.fillText(`4. Innovation & Future Readiness (Landed)`, right - 10, bottom - 10);
+            ctx.restore();
+        }
+    };
+    Chart.register(flightPathPlugin);
 
 
-                // 2. Draw Plane/Landed Icon based on Stage
-                const currentStageConfig = flightStages[stage];
-                const planeSize = 50; // **** INCREASED ICON SIZE ****
+    // --- Main DOM Content Loaded ---
+    document.addEventListener('DOMContentLoaded', () => {
 
-                if (currentStageConfig.plane) {
-                    const planeX_px = x.getPixelForValue(currentStageConfig.plane.x);
-                    const planeY_px = y.getPixelForValue(currentStageConfig.plane.y);
-                    
-                    ctx.font = `${planeSize}px serif`; // Set font size for emoji
-                    ctx.textAlign = 'center';
-                    ctx.textBaseline = 'middle';
+        const textColors = { secondary: '#64748b' };
+        Chart.defaults.font.family = 'Inter, sans-serif';
+        Chart.defaults.color = textColors.secondary;
 
-                    if (currentStageConfig.landed) {
-                        ctx.fillText('🛬', planeX_px, planeY_px); // **** LANDING PLANE EMOJI ****
+        function wrapLabels(label) {
+            if (typeof label === 'string' && label.length > 16) {
+                const words = label.split(' ');
+                let lines = [];
+                let currentLine = '';
+                for (const word of words) {
+                    if ((currentLine + ' ' + word).trim().length > 16 && currentLine.length > 0) {
+                        lines.push(currentLine);
+                        currentLine = word;
                     } else {
-                        ctx.fillText('✈️', planeX_px, planeY_px); // **** FLYING PLANE EMOJI ****
+                        currentLine = (currentLine + ' ' + word).trim();
                     }
                 }
-                ctx.restore();
+                lines.push(currentLine);
+                return lines;
+            }
+            return label;
+        }
+
+        function getTooltipConfig() {
+            return {
+                plugins: {
+                    tooltip: {
+                        callbacks: {
+                            title: function(tooltipItems) {
+                                const item = tooltipItems[0];
+                                let label = item.chart.data.labels[item.dataIndex];
+                                if (item.chart.config.type === 'bubble') {
+                                    label = item.raw.label;
+                                }
+                                if (Array.isArray(label)) {
+                                    return label.join(' ');
+                                }
+                                return label;
+                            },
+                            label: function(context) {
+                                if (context.chart.config.type === 'bubble') {
+                                    return [
+                                        `Impact (Y): ${context.raw.y}/10`,
+                                        `Readiness (X): ${context.raw.x}/10`,
+                                        `Resource Need: ${context.raw.r} (Size)`
+                                    ];
+                                }
+                                let label = context.dataset.label || '';
+                                if (label) {
+                                    label += ': ';
+                                }
+                                return label + context.formattedValue;
+                            }
+                        }
+                    }
+                },
+                interaction: {
+                    mode: 'nearest',
+                    intersect: false
+                },
+            };
+        }
+
+        const commonOptions = {
+            maintainAspectRatio: false,
+            responsive: true,
+            ...getTooltipConfig()
+        };
+
+        // --- Metrics Bar Chart ---
+        const metricsBarChartCtx = document.getElementById('metricsBarChart')?.getContext('2d');
+        if (metricsBarChartCtx) {
+            new Chart(metricsBarChartCtx, {
+                type: 'bar',
+                data: {
+                    labels: [wrapLabels('Time-to-Pilot (Days)'), wrapLabels('Pilot Conversion Rate (%)')],
+                    datasets: [
+                        {
+                            label: 'Incubation Target',
+                            data: [90, 75],
+                            backgroundColor: [CHART_COLORS.pink, CHART_COLORS.emerald],
+                            barPercentage: 0.5
+                        },
+                        {
+                            label: 'Industry Baseline',
+                            data: [180, 30],
+                            backgroundColor: CHART_COLORS.slate + 'AA',
+                            barPercentage: 0.5
+                        }
+                    ]
+                },
+                options: {
+                    ...commonOptions,
+                    indexAxis: 'y',
+                    scales: {
+                        x: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        }
+
+        // --- Flight Path Chart Logic ---
+        const flightPathChartCtx = document.getElementById('flightPathChart')?.getContext('2d');
+        const advanceButton = document.getElementById('advanceFlight');
+        const flightStatusText = document.getElementById('flightStatus');
+
+        const initialChartData = allProjectData.map(dataset => ({
+            ...dataset,
+            data: [] // Start with no data
+        }));
+
+        if (flightPathChartCtx) {
+            flightChart = new Chart(flightPathChartCtx, {
+                type: 'bubble',
+                data: { datasets: initialChartData },
+                options: {
+                    ...commonOptions,
+                     // Re-enable onClick for the modal
+                    onClick: (e, elements, chart) => {
+                        if (elements.length > 0) {
+                            const element = elements[0];
+                            const datasetIndex = element.datasetIndex;
+                            const index = element.index;
+                            const data = chart.data.datasets[datasetIndex].data[index];
+
+                            const modal = document.getElementById('artifactModal');
+                            const content = document.getElementById('modalContent');
+                            const title = document.getElementById('modalTitle');
+                            const artifactList = document.getElementById('modalArtifacts');
+
+                            title.innerText = data.label;
+                            artifactList.innerHTML = ''; // Clear old artifacts
+
+                            if (data.artifacts && data.artifacts.length > 0) {
+                                data.artifacts.forEach(artifact => {
+                                    const li = document.createElement('li');
+                                    li.innerText = artifact;
+                                    artifactList.appendChild(li);
+                                });
+                            } else {
+                                artifactList.innerHTML = '<li>Artifact list pending...</li>';
+                            }
+
+                            modal.classList.add('show');
+                            content.classList.add('scale-100', 'opacity-100');
+                        }
+                    },
+                    scales: {
+                        x: {
+                            title: {
+                                display: true,
+                                text: 'GTM READINESS / FEASIBILITY (The Runway)',
+                                font: { weight: 'bold' }
+                            },
+                            min: 0, max: 10, ticks: { stepSize: 2 }
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'STRATEGIC IMPACT / REVENUE POTENTIAL (The Altitude)',
+                                font: { weight: 'bold' }
+                            },
+                            min: 0, max: 10, ticks: { stepSize: 2 }
+                        }
+                    }
+                },
+                plugins: [flightPathPlugin] // Add the plugin to draw plane/quadrants
+            });
+        }
+
+        function updateFlightPath(stage) {
+            if (!flightChart) return;
+
+            const currentStageConfig = flightStages[stage];
+            const nextStage = (stage + 1) % 5; // 5 stages total (0-4)
+
+            let buttonStage = nextStage === 0 ? 1 : nextStage + 1; // Show 1-4, then 1 again
+            if (stage === 4) buttonStage = 1; // After stage 4, next click resets to 1
+
+            advanceButton.innerText = `ADVANCE FLIGHT STAGE (${buttonStage} / 4)`;
+            if(stage === 0) {
+                advanceButton.innerText = 'START FLIGHT (Stage 1 / 4)';
+            }
+            if(stage === 4) {
+                advanceButton.innerText = 'RESET FLIGHT PATH';
+            }
+            flightStatusText.innerText = currentStageConfig.status;
+
+            // 1. Update Project Data Visibility
+            flightChart.data.datasets.forEach((dataset, i) => {
+                const filteredData = allProjectData[i].data.filter(currentStageConfig.dataFilter);
+                dataset.data = filteredData;
+            });
+
+            // 2. Redraw Chart
+            flightChart.update();
+        }
+
+        // Update Flight Stage function
+        advanceButton.onclick = () => {
+            flightStage = (flightStage + 1) % 5; // Cycle 0, 1, 2, 3, 4
+            updateFlightPath(flightStage);
+        };
+
+        // Initialize the chart to Stage 0 (Map Ready)
+        updateFlightPath(0);
+
+        // --- Modal Close Logic ---
+        const modal = document.getElementById('artifactModal');
+        const content = document.getElementById('modalContent');
+        const closeModalBtn = document.getElementById('closeModal');
+
+        const closeModal = () => {
+            content.classList.remove('scale-100', 'opacity-100');
+            setTimeout(() => modal.classList.remove('show'), 300);
+        };
+
+        closeModalBtn.onclick = closeModal;
+        modal.onclick = (e) => {
+            if (e.target === modal) {
+                closeModal();
             }
         };
-        Chart.register(flightPathPlugin);
-
-
-        // --- Main DOM Content Loaded ---
-        document.addEventListener('DOMContentLoaded', () => {
-
-            const textColors = { secondary: '#64748b' };
-            Chart.defaults.font.family = 'Inter, sans-serif';
-            Chart.defaults.color = textColors.secondary;
-
-            function wrapLabels(label) {
-                if (typeof label === 'string' && label.length > 16) {
-                    const words = label.split(' ');
-                    let lines = [];
-                    let currentLine = '';
-                    for (const word of words) {
-                        if ((currentLine + ' ' + word).trim().length > 16 && currentLine.length > 0) {
-                            lines.push(currentLine);
-                            currentLine = word;
-                        } else {
-                            currentLine = (currentLine + ' ' + word).trim();
-                        }
-                    }
-                    lines.push(currentLine);
-                    return lines;
-                }
-                return label;
-            }
-
-            function getTooltipConfig() {
-                return {
-                    plugins: {
-                        tooltip: {
-                            callbacks: {
-                                title: function(tooltipItems) {
-                                    const item = tooltipItems[0];
-                                    let label = item.chart.data.labels[item.dataIndex];
-                                    if (item.chart.config.type === 'bubble') {
-                                        label = item.raw.label;
-                                    }
-                                    if (Array.isArray(label)) {
-                                        return label.join(' ');
-                                    }
-                                    return label;
-                                },
-                                label: function(context) {
-                                    if (context.chart.config.type === 'bubble') {
-                                        return [
-                                            `Impact (Y): ${context.raw.y}/10`,
-                                            `Readiness (X): ${context.raw.x}/10`,
-                                            `Resource Need: ${context.raw.r} (Size)`
-                                        ];
-                                    }
-                                    let label = context.dataset.label || '';
-                                    if (label) {
-                                        label += ': ';
-                                    }
-                                    return label + context.formattedValue;
-                                }
-                            }
-                        }
-                    },
-                    interaction: {
-                        mode: 'nearest',
-                        intersect: false
-                    },
-                };
-            }
-
-            const commonOptions = {
-                maintainAspectRatio: false,
-                responsive: true,
-                ...getTooltipConfig()
-            };
-
-            // --- Metrics Bar Chart ---
-            const metricsBarChartCtx = document.getElementById('metricsBarChart')?.getContext('2d');
-            if (metricsBarChartCtx) {
-                new Chart(metricsBarChartCtx, {
-                    type: 'bar',
-                    data: {
-                        labels: [wrapLabels('Time-to-Pilot (Days)'), wrapLabels('Pilot Conversion Rate (%)')],
-                        datasets: [
-                            {
-                                label: 'Incubation Target',
-                                data: [90, 75],
-                                backgroundColor: [CHART_COLORS.pink, CHART_COLORS.emerald],
-                                barPercentage: 0.5
-                            },
-                            {
-                                label: 'Industry Baseline',
-                                data: [180, 30],
-                                backgroundColor: CHART_COLORS.slate + 'AA',
-                                barPercentage: 0.5
-                            }
-                        ]
-                    },
-                    options: {
-                        ...commonOptions,
-                        indexAxis: 'y',
-                        scales: {
-                            x: {
-                                beginAtZero: true
-                            }
-                        }
-                    }
-                });
-            }
-
-            // --- Flight Path Chart Logic ---
-            const flightPathChartCtx = document.getElementById('flightPathChart')?.getContext('2d');
-            const advanceButton = document.getElementById('advanceFlight');
-            const flightStatusText = document.getElementById('flightStatus');
-            
-            const initialChartData = allProjectData.map(dataset => ({
-                ...dataset,
-                data: [] // Start with no data
-            }));
-
-            if (flightPathChartCtx) {
-                flightChart = new Chart(flightPathChartCtx, {
-                    type: 'bubble',
-                    data: { datasets: initialChartData },
-                    options: {
-                        ...commonOptions,
-                         // Re-enable onClick for the modal
-                        onClick: (e, elements, chart) => {
-                            if (elements.length > 0) {
-                                const element = elements[0];
-                                const datasetIndex = element.datasetIndex;
-                                const index = element.index;
-                                const data = chart.data.datasets[datasetIndex].data[index];
-                                
-                                const modal = document.getElementById('artifactModal');
-                                const content = document.getElementById('modalContent');
-                                const title = document.getElementById('modalTitle');
-                                const artifactList = document.getElementById('modalArtifacts');
-
-                                title.innerText = data.label;
-                                artifactList.innerHTML = ''; // Clear old artifacts
-                                
-                                if (data.artifacts && data.artifacts.length > 0) {
-                                    data.artifacts.forEach(artifact => {
-                                        const li = document.createElement('li');
-                                        li.innerText = artifact;
-                                        artifactList.appendChild(li);
-                                    });
-                                } else {
-                                    artifactList.innerHTML = '<li>Artifact list pending...</li>';
-                                }
-
-                                modal.classList.add('show');
-                                content.classList.add('scale-100', 'opacity-100');
-                            }
-                        },
-                        scales: {
-                            x: {
-                                title: {
-                                    display: true,
-                                    text: 'GTM READINESS / FEASIBILITY (The Runway)',
-                                    font: { weight: 'bold' }
-                                },
-                                min: 0, max: 10, ticks: { stepSize: 2 }
-                            },
-                            y: {
-                                title: {
-                                    display: true,
-                                    text: 'STRATEGIC IMPACT / REVENUE POTENTIAL (The Altitude)',
-                                    font: { weight: 'bold' }
-                                },
-                                min: 0, max: 10, ticks: { stepSize: 2 }
-                            }
-                        }
-                    },
-                    plugins: [flightPathPlugin] // Add the plugin to draw plane/quadrants
-                });
-            }
-
-            function updateFlightPath(stage) {
-                if (!flightChart) return;
-                
-                const currentStageConfig = flightStages[stage];
-                const nextStage = (stage + 1) % 5; // 5 stages total (0-4)
-                
-                let buttonStage = nextStage === 0 ? 1 : nextStage + 1; // Show 1-4, then 1 again
-                if (stage === 4) buttonStage = 1; // After stage 4, next click resets to 1
-                
-                advanceButton.innerText = `ADVANCE FLIGHT STAGE (${buttonStage} / 4)`;
-                if(stage === 0) {
-                    advanceButton.innerText = 'START FLIGHT (Stage 1 / 4)';
-                }
-                if(stage === 4) {
-                    advanceButton.innerText = 'RESET FLIGHT PATH';
-                }
-                flightStatusText.innerText = currentStageConfig.status;
-                
-                // 1. Update Project Data Visibility
-                flightChart.data.datasets.forEach((dataset, i) => {
-                    const filteredData = allProjectData[i].data.filter(currentStageConfig.dataFilter);
-                    dataset.data = filteredData;
-                });
-
-                // 2. Redraw Chart
-                flightChart.update();
-            }
-
-            // Update Flight Stage function
-            advanceButton.onclick = () => {
-                flightStage = (flightStage + 1) % 5; // Cycle 0, 1, 2, 3, 4
-                updateFlightPath(flightStage);
-            };
-
-            // Initialize the chart to Stage 0 (Map Ready)
-            updateFlightPath(0);
-            
-            // --- Modal Close Logic ---
-            const modal = document.getElementById('artifactModal');
-            const content = document.getElementById('modalContent');
-            const closeModalBtn = document.getElementById('closeModal');
-            
-            const closeModal = () => {
-                content.classList.remove('scale-100', 'opacity-100');
-                setTimeout(() => modal.classList.remove('show'), 300);
-            };
-
-            closeModalBtn.onclick = closeModal;
-            modal.onclick = (e) => {
-                if (e.target === modal) {
-                    closeModal();
-                }
-            };
-        });
-    </script>
-
+    });
+</script>
+<script>
+    function toggleRoadmap() {
+        const section = document.getElementById("roadmapSection");
+        section.classList.toggle("hidden");
+    }
+</script>
 </body>
 </html>
